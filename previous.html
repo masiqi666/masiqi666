@@ -13,22 +13,49 @@
     <script src="js/bootstrap337.js"></script>
     <!-- <link rel="stylesheet" href="./css/index-main.css"> -->
     <link rel="stylesheet" href="./css/previousmain.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/mapmian.css">
 </head>
 
 
 <body>
-    <div class="affix">
-        <div id="goback">
-            <a href="./info.html">[go back]</a>
+    <!-- <div class="affix">
+        <div id="goback" class="u-nav ">
+            <a class="card-small" href="./info.html">[go back]</a>
+        </div>
+        <div class="u-nav">
+            <a class="card-small" href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">GALLERY</a>
+        </div>
+        <div class="u-nav">
+            <a class="card-small" href="#logodesign" aria-controls="logodesign" role="tab" data-toggle="tab">LOGO DESIGN</a>
+        </div>
+        <div class="u-nav">
+            <a class="card-small" href="#costume" aria-controls="costume" role="tab" data-toggle="tab">COSTUME</a>
         </div>
 
-    </div>
-    <div class="container">
+    </div> -->
+    <div class="container row">
 
-        <div>
+        <div class="col-xs-3">
+            <br/><br/><br/>
+            <div id="goback" class="u-nav ">
+                <a class="card-small" href="./info.html">[go back]</a>
+            </div>
+            <div class="u-nav">
+                <a class="card-small" href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">GALLERY</a>
+            </div>
+            <div class="u-nav">
+                <a class="card-small" href="#logodesign" aria-controls="logodesign" role="tab" data-toggle="tab">LOGO DESIGN</a>
+            </div>
+            <div class="u-nav">
+                <a class="card-small" href="#costume" aria-controls="costume" role="tab" data-toggle="tab">COSTUME</a>
+            </div>
+    
+        </div>
+        <div class="col-xs-9">
 
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
+            <!-- <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#gallery" aria-controls="gallery" role="tab"
                         data-toggle="tab">GALLERY</a></li>
                 <li role="presentation"><a href="#logodesign" aria-controls="logodesign" role="tab"
@@ -36,7 +63,7 @@
                 <li role="presentation"><a href="#costume" aria-controls="costume" role="tab"
                         data-toggle="tab">COSTUME</a></li>
 
-            </ul>
+            </ul> -->
 
             <!-- Tab panes -->
             <div class="tab-content">
@@ -65,13 +92,16 @@
                 <div role="tabpanel" class="tab-pane" id="logodesign">
                     <br /><br /><br />
                     <div class="container">
+                        <h1 style="text-align: center;">LOGO DESIGN</h1>
+                        <br /><br />
                         <div class="col-xs-6">
                             <div class="picholder">
                                 <img src="./res/img/p14.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-xs-6">
-                            <h1 style="line-height: 70px;">The name of the band is Memory Makers, so they use brains and jigsaw puzzles as the main
+                            <h1 style="line-height: 70px;">The name of the band is Memory Makers, so they use brains and
+                                jigsaw puzzles as the main
                                 body of the logo design.</h1>
                         </div>
                     </div>
@@ -83,7 +113,7 @@
                     <br /><br /><br />
                     <div class="container">
                         <div class="col-xs-8">
-                            <h2>The design process Modern Mongolian clothing</h2>
+                            <span style="font-size:25px;font-weight: bolder;">The design process</span><span style="font-size:40px;font-weight: lighter;">Modern Mongolian clothing</span> 
                             <p>A few weeks ago, I went to some of the Mongolian activity, this week began sketching and
                                 moved to the clothes, the white t-shirts is the background color, I’m ready to part will
                                 be filled into green, part of the filling into blue, it’s just the idea, about in the
@@ -156,6 +186,9 @@
         </div>
     </div>
 
+    <div class="affix" style="right:30px;bottom:30px;color:#ffffff">
+        <a href="./index.html">home</a>><a href="./info.html">info</a>><a href="./previous.html">previous work</a>
+    </div>
 
 
 </body>

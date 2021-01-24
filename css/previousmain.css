@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #000000;
+    background-color: rgba(1, 32, 63, .7);
     color: #ffffff;
 }
 .picholder>img{
@@ -12,13 +12,20 @@ body{
 #logod1{
     width:100vw;
 }
-#goback{
+.affix{
+    margin-top:40px;
+}
+.u-nav{
     margin:20px;
+    /* border-radius: 10px; */
+    padding:20px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+.u-nav>a{
+    
     border-radius: 10px;
     padding:20px;
-    background-color: blueviolet;
-}
-#goback>a{
+    background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     text-decoration: none;
 }

@@ -12,6 +12,8 @@
     <script src="js/jquery221.js"></script>
     <script src="js/bootstrap337.js"></script>
     <link rel="stylesheet" href="./css/index-main.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/mapmian.css">
 </head>
 
 
@@ -21,30 +23,30 @@
         <div class="container">
             <div class="col-xs-6">
                 <div>
-                    <a class="u-btn" href="./index.html">[go back]</a>
+                    <a class="u-btn card-small" href="./index.html">[go back]</a>
                 </div>
                 <br />
                 <table class="tb_nav">
                     <tr>
                         <td>
-                            <div class="main2" id="n1">PREVIOUS WORK</div>
+                            <div class="card-medium" id="n1">PREVIOUS WORK</div>
                         </td>
                         <td>
-                            <div class="main2">PERSONAL EXPERIENCE</div>
+                            <div class="card-medium" id="n2">PERSONAL EXPERIENCE</div>
                         </td>
                         <td>
-                            <div class="main2">JOURNAL REPORT</div>
+                            <div class="card-medium" id="n3">JOURNAL REPORT</div>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <div class="main2">REFERENCES</div>
+                            <div class="card-medium" id="n4">REFERENCES</div>
                         </td>
                         <td>
-                            <div class="main2">SITE MAP</div>
+                            <div class="card-medium" id="n5">SITE MAP</div>
                         </td>
                         <td>
-                            <div class="main2">CONTACT</div>
+                            <div class="card-medium" id="n6">CONTACT</div>
                         </td>
                     </tr>
 
@@ -60,11 +62,31 @@
         </div>
     </div>
 
+
+    <div class="affix" style="right:30px;bottom:30px;color:#ffffff">
+        <a href="./index.html">home</a>><a href="./info.html">info</a>
+    </div>
+
 </body>
 <script src="js/index.js"></script>
 <script type="text/javascript">
-    $("#n1").click(function(){
-        location.href="./previous.html";
+    $("#n1").click(function () {
+        location.href = "./previous.html";
+    });
+    $("#n2").click(function () {
+        location.href = "./resume.html";
+    });
+    $("#n3").click(function () {
+        location.href = "./report.html";
+    });
+    $("#n4").click(function () {
+        location.href = "./reference.html";
+    });
+    $("#n5").click(function () {
+        location.href = "./sitemap.html";
+    });
+    $("#n6").click(function () {
+        location.href = "./contact.html";
     });
 </script>
 

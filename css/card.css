@@ -1,0 +1,35 @@
+.card{
+    box-shadow: 18px 18px 30px rgb(0, 0, 0),
+    -18px -18px 30px rgba(255, 255, 255, .4);
+}
+.card:hover{
+    box-shadow: 0px 0px 0px rgb(0, 0, 0),
+    0px 0px 0px rgba(255, 255, 255, 0.8),
+    inset 18px 18px 30px rgba(0, 0, 0, 0.3),
+    inset -18px -18px 30px rgba(255, 255, 255, 0.4);
+    transition: box-shadow .2s ease-out;
+}
+
+.card-medium{
+    box-shadow: 10px 10px 20px rgb(0, 0, 0),
+    -10px -10px 20px rgba(255, 255, 255, .4);
+}
+.card-medium:hover{
+    box-shadow: 0px 0px 0px rgb(0, 0, 0),
+    0px 0px 0px rgba(255, 255, 255, 0.8),
+    inset 8px 8px 10px rgba(0, 0, 0, 0.3),
+    inset -8px -8px 10px rgba(255, 255, 255, 0.4);
+    transition: box-shadow .2s ease-out;
+}
+
+.card-small{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0),
+    -5px -5px 10px rgba(255, 255, 255, .4);
+}
+.card-small:hover{
+    box-shadow: 0px 0px 0px rgb(0, 0, 0),
+    0px 0px 0px rgba(255, 255, 255, 0.8),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.3),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.4);
+    transition: box-shadow .2s ease-out;
+}
